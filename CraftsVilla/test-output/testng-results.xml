@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Less price of the product list is ]]>
+    </line>
+    <line>
+      <![CDATA[₹ 3600]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111584" started-at="2018-01-16T11:04:58Z" finished-at="2018-01-16T11:06:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="111584" started-at="2018-01-16T11:04:58Z" finished-at="2018-01-16T11:06:50Z">
+      <class name="scripts.Test1">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:scripts.Test1@217c23ce]" name="openbrowser" is-config="true" duration-ms="13860" started-at="2018-01-16T16:34:58Z" finished-at="2018-01-16T16:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:scripts.Test1@217c23ce]" name="test1" duration-ms="95539" started-at="2018-01-16T16:35:12Z" finished-at="2018-01-16T16:36:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Less price of the product list is ]]>
+            </line>
+            <line>
+              <![CDATA[₹ 3600]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:scripts.Test1@217c23ce]" name="closeApplication" is-config="true" duration-ms="2123" started-at="2018-01-16T16:36:48Z" finished-at="2018-01-16T16:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
